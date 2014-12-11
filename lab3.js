@@ -18,7 +18,7 @@ To run this file (in the terminal) use: node lab3.js
 // We're going to use this special assert method again to test our code
 function assert(expression, failureMessage) {
   if (!expression) {
-    console.log('assertion failure: ', failureMessage);
+    console.log("assertion failure: ", failureMessage);
   }
 }
 
@@ -84,9 +84,9 @@ function hoursToOoze(population, peoplePerHour) {
   // TODO: implement me based on the instructions above
 }
 
-assert(hoursToOoze(0, 1) === 0, 'no people means no time needed.');
+assert(hoursToOoze(0, 1) === 0, "no people means no time needed.");
 assert(hoursToOoze(1000, 1) === hoursSpentInDowington,
-  'hoursSpentInDowington should match hoursToOoze\'s result for 1000');
+  "hoursSpentInDowington should match hoursToOoze\"s result for 1000");
 // TODO: write three more assertions like the two above, testing out
 // the hoursToOoze method.
 
@@ -95,9 +95,9 @@ assert(hoursToOoze(1000, 1) === hoursSpentInDowington,
 //*********************************************************
 
 var hello = {
-  klingon: 'nuqneH',  // home planet is Qo'noS
-  romulan: 'Jolan\'tru', // home planet is Romulus
-  'federation standard': 'hello' // home planet is Earth
+  klingon: "nuqneH",  // home planet is Qo"noS
+  romulan: "Jolan\"tru", // home planet is Romulus
+  "federation standard": "hello" // home planet is Earth
 };
 
 // TODO: define a constructor that creates objects to represent
@@ -124,7 +124,7 @@ var klingon = new SentientBeing(); // TODO: fix me
 var romulan = new SentientBeing(); // TODO: fix me
 var human = new SentientBeing(); // TODO: fix me
 
-assert(human.sayHello(klingon) === 'nuqneH', 'the klingon should hear nuqneH');
+assert(human.sayHello(klingon) === "nuqneH", "the klingon should hear nuqneH");
 // TODO: write five more assertions, to complete all the possible
 // greetings between the three sentient beings you created above.
 
@@ -132,6 +132,6 @@ assert(human.sayHello(klingon) === 'nuqneH', 'the klingon should hear nuqneH');
 // PROBLEM 4: Cleanup: 10 points
 // Makes sure this file passes jshint and jscs
 //
-// ./node_modules/.bin/jshint
-// ./node_modules/.bin/jscs 
+// ./node_modules/.bin/grunt jshint
+// ./node_modules/.bin/grunt jscs
 //*********************************************************

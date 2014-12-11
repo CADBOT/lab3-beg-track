@@ -1,9 +1,9 @@
 {
-  "name": "lab3-adv-track",
+  "name": "lab3-beg-track",
   "version": "0.0.0",
   "description": "Codefellows Foundations II: Javascript, Lab 3, Beginner Track",
   "repository" : { "type" : "git", 
-    "url" : "https://github.com/mel-quark/lab3-adv-track.git"
+    "url" : "https://github.com/mel-quark/lab3-beg-track.git"
   },
   "dependencies": {
     "grunt-cli": "^0.1.13",
